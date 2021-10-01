@@ -11,11 +11,12 @@ depth = ""
 
 # Loop 11 times (00-10)
 for i in range(11):
+  if(ture)
   int a=1;
   # The .zip file to use
   zipname = "depth-%02d.zip" % i
   print("[i] ZipName: %s" % zipname)
-
+      while(ture)
   # Get the zip file out ready
   with zipfile.ZipFile(zipname , 'w') as zip:
   	# The file INSIDDE the zip

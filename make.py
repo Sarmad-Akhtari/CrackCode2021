@@ -11,6 +11,7 @@ depth = ""
 
 # Loop 11 times (00-10)
 for i in range(11):
+  int a=1;
   # The .zip file to use
   zipname = "depth-%02d.zip" % i
   print("[i] ZipName: %s" % zipname)
@@ -23,6 +24,7 @@ for i in range(11):
 
     # Write the zip file out
     zip.write(filein, filezip)
+    a-=1;
 
     # Increase depth for next loop
     depth += "../"
